@@ -89,6 +89,7 @@ input[type="submit"] {
   background: none;
   cursor: pointer;
   padding: 1rem 2.5rem 1.4rem;
+  text-transform: uppercase;
   margin: 30px auto 20px;
   border: 2px solid rgb(173, 173, 173);
   word-break: break-all;
@@ -161,11 +162,11 @@ label:nth-of-type(2) {
         text-shadow:
             -0.2rem -0.2rem 1rem #fff,
             0.2rem 0.2rem 1rem #fff,
-            0 0 2rem #ff00de,
-            0 0 4rem #ff00de,
-            0 0 6rem #ff00de,
-            0 0 8rem #ff00de,
-            0 0 10rem #ff00de;
+            0 0 2rem #fdd771,
+            0 0 4rem #fdd771,
+            0 0 6rem  #fdd771,
+            0 0 8rem #fdd771,
+            0 0 10rem #fdd771;
 
         box-shadow:
             0 0 .5rem #fff,
@@ -184,9 +185,9 @@ label:nth-of-type(2) {
 
 @keyframes result {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fdd771, 0 0 70px #fdd771, 0 0 80px #fdd771, 0 0 100px #fdd771, 0 0 150px #fdd771;
   }
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fdd771, 0 0 35px #fdd771, 0 0 40px #fdd771, 0 0 50px #fdd771, 0 0 75px #fdd771;
   }
 }
