@@ -15,8 +15,8 @@ background: radial-gradient(circle, rgba(13,31,92,1) 10%, rgba(7,9,43,1) 100%);
 }
 
 .wrapper {
-  max-width: 800px;
-  width: 85%;
+  max-width: 1800px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -25,7 +25,7 @@ background: radial-gradient(circle, rgba(13,31,92,1) 10%, rgba(7,9,43,1) 100%);
 }
 
 h1 {
-  font-size: calc(3rem + 2vw);
+  font-size: calc(2rem + 2vw);
   font-weight: 400;
   font-family: 'Pacifico', cursive;
   color: yellow;
@@ -37,12 +37,12 @@ h1 {
 }
 
 h1::-moz-selection {
-  background-color: #08f;
+  background-color: palegoldenrod;
   color: #f40;
 }
 
 h1::selection {
-  background-color: #08f;
+  background-color: palegoldenrod;
   color: #f40;
 }
 
@@ -56,13 +56,13 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   text-shadow:
-    -0.2rem -0.2rem 0.7rem #08f,
-    0.2rem 0.2rem 0.7rem #08f,
-    0 0 2rem #08f,
-    0 0 4rem #08f,
-    0 0 6rem #08f,
-    0 0 8rem #08f,
-    0 0 10rem #08f;
+    -0.2rem -0.2rem 0.7rem palegoldenrod,
+    0.2rem 0.2rem 0.7rem palegoldenrod,
+    0 0 2rem palegoldenrod,
+    0 0 4rem palegoldenrod,
+    0 0 6rem palegoldenrod,
+    0 0 8rem palegoldenrod,
+    0 0 10rem palegoldenrod;
 }
 
 main {
@@ -81,15 +81,14 @@ main {
 
 input[type="submit"] {
   display: block;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 300;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Pacifico', cursive;
   color: #fff;
   border: none;
   background: none;
   cursor: pointer;
   padding: 1rem 2.5rem 1.4rem;
-  text-transform: uppercase;
   margin: 30px auto 20px;
   border: 2px solid rgb(173, 173, 173);
   word-break: break-all;
@@ -113,11 +112,11 @@ main legend {
   text-shadow:
     -0.2rem -0.2rem 0.7rem #08f,
     0.2rem 0.2rem 0.7rem #08f,
-    0 0 2rem #08f,
-    0 0 4rem #08f,
-    0 0 6rem #08f,
-    0 0 8rem #08f,
-    0 0 10rem #08f;
+    0 0 2rem palegoldenrod,
+    0 0 4rem palegoldenrod,
+    0 0 6rem palegoldenrod,
+    0 0 8rem palegoldenrod,
+    0 0 10rem palegoldenrod;
 }
 
 .choices:nth-child(2) legend {
